@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Captcha.Dto\Captcha.Dto.csproj" />
+    <ProjectReference Include="..\Captcha.Util\Captcha.Util.csproj" />
+  </ItemGroup>
+
+</Project>
